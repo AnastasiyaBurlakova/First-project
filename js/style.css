@@ -1,0 +1,23 @@
+.gallery_cat {
+    width: 400px;
+    height: 300px;
+}
+
+.basket {
+    margin-top: 30px;
+    display: flex;
+    width: 627px;
+    justify-content: space-between;
+}
+
+.h1_cat1 {
+    font-size: 14px;
+}
+
+.create_service {
+    margin-top: 100px;
+}
+
+.create_service h2 {
+    color: brown;
+}

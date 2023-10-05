@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gallery">
+        <h1 class="gallery_title">Cats</h1>
+        <div class="gallery_images">
+            <img class="active gallery_cat" src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRRv9ICxXjK-LVFv-lKRId6gB45BFoNCLsZ4dk7bZpYGblPLPG-9aYss0Z0wt2PmWDb" width="100%" alt="">
+            <img class="gallery_cat" src="https://4lapy.ru/resize/1157x660/upload/iblock/7fc/7fccbfaaa9f6e0c6cf5fb2528d940fbc.jpg" width="100%" alt="">
+        </div>
+        <div class="gallery_buttons">
+            
+            
+            <button id="nazad" class="gallery_button">Previous</button>
+            
+            <button id="vpered" class="gallery_button">Next</button>
+        
+        </div>
+    </div>
+    <div class="basket">
+        <div class="bascet_image">
+            <img class="basket_picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJSMHKt2k5UUXxTYsTp-74GfA_fjIONd3yygWS4nwy&s">
+            <h1 class="h1_cat1">кот большой</h1>
+        </div>    
+            <h2 class="price h2_price_of_cats">100</h2>
+        
+    
+    </div>
+
+    <div class="basket">
+        <div class="bascet_image">
+            <img class="basket_picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsF4H_L6Nw6UHj2NoXhbc6iQxBJfHEwac9EJ5a6bqBauqghmxPy8XexyubkpmcHDb3BhQ&usqp=CAU">
+            <h1 class="h1_cat1">кот средний</h1>
+        </div>    
+            <h2 class="price h2_price_of_cat_2">200</h2>
+        
+    
+    </div>
+    <div class="basket">
+        <div class="bascet_image">
+            <img class="basket_picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsF4H_L6Nw6UHj2NoXhbc6iQxBJfHEwac9EJ5a6bqBauqghmxPy8XexyubkpmcHDb3BhQ&usqp=CAU">
+            <h1 class="h1_cat1">кот средний</h1>
+        </div>    
+            <h2 class="price h2_price_of_cat_3">250</h2>
+        
+    
+    </div>
+   <!--   <div class="sale">
+       
+        <input type="button" onclick="countTotal()" value="Использовать купон на 20%">
+    </div>
+    -->
+
+    <input type="number" class="number">
+    <input type="number" class="number1"> 
+    <input type="text" disabled  class="none" >
+    <div class="btn_11">
+        <input type="button" onclick="countTotal()" value="Использовать купон на 20%">
+    </div>
+
+
+    <div class="create_service">
+        <h2>Оставьте ваш комментарий</h2>
+        <div class="create_names">
+            <h3>Введите ваше имя</h3>
+            <input type="text" class="create_name">
+        </div>
+        <div class="create_avatar">
+            <h3>Введите ссылку вашего аватара</h3>
+            <input type="text" class="create_ava">
+        </div>  
+        <div class="create_comment">
+            <h3>Оставьте ваш комментарий</h3>
+            <input type="text" class="create_comm">
+        </div> 
+        <input type="button" class="send" value="Отправить">    
+    </div>
+    <div class="chat_info">
+        <div class="chat_info-item">
+            <img class="create_ava" src="https://pibig.info/uploads/posts/2022-11/1669759749_2-pibig-info-p-oboi-na-telefon-more-vkontakte-2.jpg" alt="" hidden> 
+            <div class="name"></div>
+            <div class="desc"></div>
+        
+        </div>
+    </div>
+
+
+
+    <script>
+
+//         // const name = document.querySelector(".create_name");
+//         // const name2 = name.toLowerCase;
+//         // console.log(name2)
+//         const chat_info = document.querySelector(".chat_info");
+
+//         const name = document.querySelector(".create_name");
+
+        
+//         const avatar = document.querySelector(".create_ava");
+        
+//         const comm = document.querySelector(".create_comm");
+        
+        
+            
+            
+            
+//             const send = document.querySelector(".send");
+//             function btnClick() {
+
+        
+//                 // chat_info.innerHtml = `<div class="chat_info-item"><div class="name">${name.value}</div><div class="name">tect</div></div>`
+//                 chat_info.innerHTML = `<div class="chat_info-item">
+//                     <div class="name">${name.value}</div>
+//                     <img class='create_ava'>${create_ava.value}>
+//                     </div>`              
+//                 console.log("получилось", name)
+                
+//         }
+
+//         send.addEventListener('click', btnClick);
+
+
+
+
+//         // const send = document.querySelector(".send");
+//         //     function btnClick() {
+
+        
+//         //         // chat_info.innerHtml = `<div class="chat_info-item"><div class="name">${name.value}</div><div class="name">tect</div></div>`
+//         //         chat_info.innerHTML = `<div class="chat_info-item">
+//         //             <div class="name">${name.value}</div>
+//         //             <img src="https://pibig.info/uploads/posts/2022-11/1669759749_2-pibig-info-p-oboi-na-telefon-more-vkontakte-2.jpg" alt="">
+//         //             <div class="desc">
+//         //             </div>
+                                  
+//         //         console.log("получилось", name)
+                
+//         // }
+
+//         // send.addEventListener('click', btnClick);
+
+
+
+
+
+
+//         const number = document.querySelector(".number");
+    
+//         const number1 = document.querySelector(".number1");
+//         const none = document.querySelector(".none");
+        
+//         function countTotal() {
+//             none.value = number.value ** number1.value;
+//         }
+
+
+        
+
+//         let start = new Date(); // начинаем отсчёт времени
+
+//         for (let i = 0; i < 100000; i++) {
+//          let doSomething = i * i * i;
+//         }
+
+//         let end = new Date(2023, 4, 22, 0, 0, 0); // заканчиваем отсчёт времени
+
+//         // let total = end - start
+
+//         console.log(`До завтра ${end - start} секунд`);    
+//         // console.log(date.getSeconds());
+
+
+// //         function getSecondsToTomorrow() {
+// //   let now = new Date(2023, 5, 20,);
+
+// //   // завтрашняя дата
+// //   let tomorrow = new Date(now.getFullYear(2023), now.getMonth(5), now.getDate(21)+1);
+
+// //   let diff = tomorrow - now; // разница в миллисекундах
+// //   return Math.round(diff / 1000); // преобразуем в секунды
+// // }
+
+
+
+
+//         // const number = document.querySelector(".number");
+//         // const none = document.querySelector(".none");
+
+       
+
+//         // function countTotal() {
+//         //     none.value = number.value ** 2;
+//         // }
+
+
+//         //
+//         // document.querySelectorAll(".price");
+//     //    const h2_price_of_cats =  document.querySelector(".h2_price_of_cats");
+//     //    const price1 =  h2_price_of_cats.innerHTML = 100;
+//     //    const h2_price_of_cat_2 =  document.querySelector(".h2_price_of_cat_2");
+//     //    const price2 =  h2_price_of_cat_2.innerHTML = 200;
+//     //    const h2_price_of_cat_3 =  document.querySelector(".h2_price_of_cat_3");
+//     //    const price3 = h2_price_of_cat_3.innerHTML = 250;
+//     //    const total = price1 + price2 + price3;
+//     //    document.querySelector(".total").innerHTML = total;
+//     //    console.log(total)
+
+//     //    function countTotal() {
+//     //     h2_price_of_cats.innerHTML = price1 * 0.93;
+//     //     h2_price_of_cat_2.innerHTML = price2 * 0.93;
+//     //     h2_price_of_cat_3.innerHTML = price3 * 0.93;
+//     //     const total = price1 + price2 + price3;
+//     //     document.querySelector(".total").innerHTML = total * 0.93;
+        
+        
+//     //     console.log("total * 0.93");
+          
+
+//     //    }   
+
+
+//        //price1+price2+price3
+//        //total
+//        // обработчик событий, когда я нажимаю на кнопку, меняются значение
+//        //потом я заново складываю все значения и вывожу их в total
+
+
+
+//     //    document.querySelector(".total").innerHTML = price3;
+
+//     //    document.querySelector(".total").innerHTML = price3;
+
+//       // document.querySelector(".total").innerHTML = 800;
+
+       
+
+//         // console.log('h2_price_of_cat_3', total );
+        
+        
+//         // const buttons = document.querySelectorAll(".gallery_button");
+
+//         // console.log(buttons)
+
+
+//         // buttons.forEach(element => {
+//         //     console.log('element ',element )
+//         //     element.addEventListener('click', ()=> console.log('Кнопка'));  // 1 аргумент:  какое именно событие мы хотим слушать. " аргумент: функция, которая выполнится"
+//         // });
+
+
+//             let date = new Date(2021, 0, 24, 22, 51)
+//             console.log('вывожу дату', date)
+
+
+
+
+
+
+//     </script>
+    </style>
+<script src="test.js"></script>
+</body>
